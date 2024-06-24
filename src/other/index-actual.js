@@ -5,7 +5,7 @@ const app = express();
 const dbInit = require("./config/mongo");
 
 // Importa tus rutas y middlewares
-const routes = require("./routes");
+const routes = require("./routes/");
 
 // Eliminando el problema de cruzamiento de origen del navegador
 app.use(cors());
